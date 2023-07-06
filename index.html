@@ -17,13 +17,14 @@
         <!--Navbar-->
         <div class="Navbar">
             <a class="active" href="#Home">Home</a>
-            <a class="#Slideshow">Slideshow</a>
+            <a href="#Slideshow">Slideshow</a>
             <a href="#About">About</a>
             <a href="#GitHub">GitHub</a>
-
-        <!-- Onclick and Double click added to open concact form -->
-            <a onclick= "openForm()" ondblclick= "closeForm()" class = "contact">Contact</a>
         </div>
+
+        <!-- Onclick and Double click added to open contact form -->
+            <a onclick= "openForm()" ondblclick= "closeForm()" class = "contact">Contact</a>
+        
 
         <!--Background video-->
         <div id="Home">
@@ -64,8 +65,8 @@
                     <div class = "mySlides fade">
                         
                         <img class = "Slideshow_Images" src = "./Media/images/HTML_CSS_and_JavaScript.png" alt = "Logos">
-                        <div class = "text">I am a full-stack software developer,
-                        <br> trained in:
+                        <div class = "text">
+                        <br> I'm a full stack developer, trained in:
                         <br> HTML, CSS, and Javascript,
                         </div>
                     </div>
@@ -84,7 +85,7 @@
                     <!-- Slide 5 of 6 -->
                     <div class = "mySlides fade">
                         <img class = "Slideshow_Images" src = "./Media/images/SQL_and_Database.png" alt =" SQL logo">
-                        <div class = "text">back end development, databases, and SQL.
+                        <div class = "text">Back-end development, databases, and SQL.
                         </div>
                     </div>
                     <!-- Slide 6 of 6 -->
@@ -124,11 +125,10 @@
             <div class="Column_1">
                 <h1>About</h1>
                 <p>
-                    I am relatively new to software development, having previously worked both in biomedical research, as well as the hospitality industry. I'm fortunate that my time spent in a variety of fields has allowed me to collect many different types of skills, both technical and abstract.
+                    Brandon is a recent graduate of the <a href="https://www.learncodinganywhere.com" target="_blank">Tech Academy's</a> Game Development bootcamp, previously having worked in hospitality and biomedical research. While new to game development, Brandon has had a life long relationship with videogames, and his unique experiences as a chef and researcher provide a strong organizational background for his future as a coder.
                     <br>
-                    <br>I am a also a graduate of <a href="https://www.learncodinganywhere.com" target="_blank">The Tech Academy's</a> Game Development Boot Camp, and trained and experienced in the following web and programming languages, and engines: HTML, CSS, JavaScript, SQL, C#, C++, Unity Engine, and Unreal Engine. 
+                    <br>As a graduate of the Tech Academy, I have introductory training in the following web and programming languages, and engines: HTML, CSS, JavaScript, SQL, C#, C++, Unity Engine, and Unreal Engine. 
                     <br>
-                    <br>I am a full-stack developer and would love to hear from you! <a onclick = "openForm()" class = "contact">Contact</a> me below!
                 </p>
             </div>
         </div>
@@ -141,6 +141,7 @@
                 <p>You can view my coding projects on my GitHub profile here:
                     <br>
                     <p class="center"><a href="https://github.com/danbrong" target="_blank">Brandon's Github</a></p>
+                    <br>I am a full-stack developer and would love to hear from you! <a onclick = "openForm()" class = "contact">Contact</a> me below!
                 </p>
             </div>
             <!--Right column-->
@@ -178,10 +179,11 @@
 
         <!--Footer section-->
         <footer>
-            <p>
-                <p class="center">&copy Prosper Consulting Inc., <a href="https://www.learncodinganywhere.com/" target="_blank">The Tech Academy</a></p>
-                <br>
+        <p>
+            <p class="center">For more, check out <a href="https://github.com/danbrong?tab=repositories" target="_blank">My GitHub Repositories</a>
+            <br> 
             </p>
+            
         </footer>
         <script src = "./JS/portfolio_2.js"></script>
     </body>
